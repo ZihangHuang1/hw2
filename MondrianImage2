@@ -1,0 +1,35 @@
+function setup() {
+    createCanvas(400, 400);
+}
+
+function draw() {
+    background(240);
+    noStroke();
+    strokeCap(SQUARE);
+
+    // yellow square
+	  fill(220, 210, 0);
+    rect(182, 380, 120, 160);
+
+    // red square
+    fill(255, 0, 0);
+	  rect(0, 0, 180, 245);
+
+    // blue square
+    fill(0, 0, 190);
+    rect(370, 250, 30, 60);
+	
+	  // black square
+	  fill(0, 0, 0);
+	  rect(302,380,70,40);
+	  
+
+    stroke(0);
+    strokeWeight(8);
+    line(182, 0, 182, 400);     
+	  line(0, 248, 400, 248);
+	  line(370,248,370,400);
+	  line(180,380,370,380);
+	  line(370,310,400,310);
+	
+}
